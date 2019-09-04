@@ -12,6 +12,11 @@
     <artifactId>security-core</artifactId>
 
     <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
         <!--app端oauth2的支持-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
