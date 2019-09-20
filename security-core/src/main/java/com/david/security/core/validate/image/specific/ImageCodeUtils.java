@@ -1,10 +1,10 @@
-package com.david.security.core.validate.utils;
+package com.david.security.core.validate.image.specific;
 
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.util.Random;
 
-import com.david.security.core.validate.code.ImageCode;
+import com.david.security.core.validate.image.code.ImageCode;
 
 /**
  * @description: 图形验证码工具类

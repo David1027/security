@@ -14,6 +14,11 @@
 
     <dependencies>
         <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
             <groupId>com.david.security</groupId>
             <artifactId>security-core</artifactId>
             <version>${my.security.version}</version>

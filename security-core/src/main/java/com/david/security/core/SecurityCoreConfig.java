@@ -1,9 +1,9 @@
 package com.david.security.core;
 
-        import com.david.security.core.properties.SecurityProperties;
+import com.david.security.core.properties.SecurityProperties;
 
-        import org.springframework.boot.context.properties.EnableConfigurationProperties;
-        import org.springframework.context.annotation.Configuration;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
+import org.springframework.context.annotation.Configuration;
 
 /**
  * @description: 配置类

@@ -1,18 +1,14 @@
 package com.david.code;
 
-import javax.xml.transform.Source;
-
-import com.david.security.core.validate.code.ImageCode;
-import com.david.security.core.validate.generator.ValidateCodeGenerator;
-
-import org.springframework.stereotype.Component;
+import com.david.security.core.validate.image.code.ImageCode;
+import com.david.security.core.validate.head.generator.ValidateCodeGenerator;
 
 /**
  * @description: 覆盖验证码生成接口
  * @author: lingjian
  * @create: 2019/9/4 10:27
  */
-//@Component("imageCodeGenerator")
+//@Component("imageValidateCodeGenerator")
 public class DemoImageCodeGenerator implements ValidateCodeGenerator {
   @Override
   public ImageCode generator() {

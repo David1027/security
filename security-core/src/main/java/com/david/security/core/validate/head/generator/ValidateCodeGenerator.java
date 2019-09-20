@@ -1,6 +1,4 @@
-package com.david.security.core.validate.generator;
-
-import com.david.security.core.validate.code.ImageCode;
+package com.david.security.core.validate.head.generator;
 
 /**
  * @description: 生成验证码的接口
@@ -9,5 +7,10 @@ import com.david.security.core.validate.code.ImageCode;
  */
 public interface ValidateCodeGenerator {
 
-  ImageCode generator();
+  /**
+   * 生成验证码
+   *
+   * @return Object
+   */
+  Object generator();
 }

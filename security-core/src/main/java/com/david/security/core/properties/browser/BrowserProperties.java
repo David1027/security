@@ -15,4 +15,6 @@ public class BrowserProperties {
   private String loginPage = "/signIn.html";
   /** 登陆跳转类型 */
   private LoginType loginType = LoginType.JSON;
+  /** “记住我”过期时间 */
+  private int rememberMeSeconds = 3600;
 }

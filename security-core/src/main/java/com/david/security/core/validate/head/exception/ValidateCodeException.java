@@ -1,4 +1,4 @@
-package com.david.security.core.validate.exception;
+package com.david.security.core.validate.head.exception;
 
 import org.springframework.security.core.AuthenticationException;
 

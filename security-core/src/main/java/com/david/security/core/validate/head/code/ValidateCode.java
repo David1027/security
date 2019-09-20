@@ -1,29 +1,25 @@
-package com.david.security.core.validate.code;
+package com.david.security.core.validate.head.code;
 
-import java.awt.image.BufferedImage;
 import java.time.LocalDateTime;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
 /**
- * @description: 图形验证码
+ * @description: 验证码
  * @author: lingjian
- * @create: 2019/9/3 9:54
+ * @create: 2019/9/4 14:18
  */
 @Data
 @AllArgsConstructor
-public class ImageCode {
+public class ValidateCode {
 
-  /** 验证码图片 */
-  private BufferedImage image;
-  /** 验证码随机数 */
+  /** 验证码 */
   private String code;
   /** 过期时间 */
   private LocalDateTime expireTime;
 
-  public ImageCode(BufferedImage image, String code, int expireIn) {
-    this.image = image;
+  public ValidateCode(String code, int expireIn) {
     this.code = code;
     this.expireTime = LocalDateTime.now().plusSeconds(expireIn);
   }

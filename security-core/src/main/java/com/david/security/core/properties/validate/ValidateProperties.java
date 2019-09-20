@@ -1,6 +1,7 @@
 package com.david.security.core.properties.validate;
 
 import com.david.security.core.properties.validate.image.ImageCodeProperties;
+import com.david.security.core.properties.validate.sms.SmsCodeProperties;
 
 import lombok.Data;
 
@@ -12,4 +13,5 @@ import lombok.Data;
 @Data
 public class ValidateProperties {
   private ImageCodeProperties image = new ImageCodeProperties();
+  private SmsCodeProperties sms = new SmsCodeProperties();
 }

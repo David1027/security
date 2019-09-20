@@ -1,9 +1,9 @@
-package com.david.security.core.validate.generator.impl;
+package com.david.security.core.validate.image.generator;
 
 import com.david.security.core.properties.SecurityProperties;
-import com.david.security.core.validate.code.ImageCode;
-import com.david.security.core.validate.utils.ImageCodeUtils;
-import com.david.security.core.validate.generator.ValidateCodeGenerator;
+import com.david.security.core.validate.head.generator.ValidateCodeGenerator;
+import com.david.security.core.validate.image.specific.ImageCodeUtils;
+import com.david.security.core.validate.image.code.ImageCode;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
